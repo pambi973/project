@@ -75,3 +75,14 @@ cat>filename will create file add data
 cntrl+d to save data
 cat>>filename
 to add data the existing file
+
+vi  file name
+esc+i
+esc :wq
+w for save
+q for quit
+! for force quit
+
+rm -rf to remove files from local repos
+
+touch file{1..10}

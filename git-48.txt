@@ -1,0 +1,304 @@
+git init
+
+git config --global user.name "Polarapu Prasad"
+git config --global user.email "devopstraining2015@gmail.com"
+
+git config --list
+
+touch file1
+git status
+git add file1
+git status
+git commit -m "label" file1
+git status
+git log
+git show cid
+
+touch file3 file4 file5
+ls
+git status
+git add file3 file4 file5
+or
+git add .
+or
+git add *
+or 
+git add -A
+git status
+git commit -m "label"
+
+
+git reset --soft cid (loacl to staging)
+git reset HEAD file-name (staging to workspace)
+git reset --mixed cid  (local to workspace)
+git reset --hard cid
+
+================================================
+
+git clone https://github.com/polarapu/batch48.git
+ls
+cd batch48
+ls
+touch prasad
+git add .
+git commit -m "first commit"
+git push
+git pull
+esc :wq!
+git pull --rebase
+git push
+
+git log
+git log -5
+git log --oneline
+git log --oneline -2
+git log --author=prasad
+git log --author=prasad --oneline -5
+git log --since=2015-02-07
+or
+git log --after=2015-02-07
+git log --until=2018-08-17
+or
+git log --before=2018-08-17
+
+git log --after="2019-11-07 20:30" --before="2019-11-07 21:00"
+git log --grep="msg"
+git log -- file-name
+
+
+--------------------------------------------------
+Touch, CAT, VI
+--------------------
+touch :-
+---------
+touch file-name
+EX:- touch prasad
+ls
+touch devops devops1 devops2 devops3
+ls
+
+CAT :-
+-----
+
+cat > file-name
+...
+..
+..
+ctrl+d
+ls
+
+cat file-name
+
+cat >> file-name
+...
+...
+..
+ctrl+d
+
+cat file-name
+
+VI
+---
+
+vi file-name
+---------------
+esc i
+.......
+.........
+.........
+esc :w
+esc :q
+or
+esc :wq!
+
+
+git add .
+git commit -m "sample files"
+git push
+
+rm -rf file-name
+
+
+
+
+git clone https://github.com/polarapu/batch48.git
+ls
+cd batch48
+ls
+rm -rf prasad
+git add .
+git commit -m "delete by prasad"
+git push
+git pull --rebase
+git push
+
+--------------------------------
+mkdir prasad-dir
+cd prasad-dir
+touch prasad1
+cd ..
+git status
+git add .
+git commit -m "dir commit"
+git push
+
+
+Branch
+------------
+
+
+git branch
+
+git branch branch-name
+Ex: 
+git branch master1
+
+git branch
+
+git checckout master1
+
+git branch
+
+git merge branch-name
+
+git cherry-pick cid
+
+git branch -d branch-name
+
+git push path/of/c-repo
+or
+git push origin branch-name
+
+git push origin -d branch-name
+
+git checkout -b branch-name
+
+
+stash
+-------
+git stash list
+
+touch file1
+git add .
+git stash save "label"
+git stash list
+git stash show -p stash@{x}
+
+POP, APPLY, DROP
+--------------------------
+POP  (mv)
+------
+git stash pop
+git stash pop stash@{x}
+
+APPLY  (copy)
+---------
+git stash apply
+git stash apply stash@{x}
+
+DROP
+-------
+git stash drop
+git stash drop stash@{x}
+
+
+Alias
+--------
+git status
+
+git config --global alias.s "status"
+
+git s
+
+git log --oneline
+git l1
+
+git config --global alias.l1 "log --oneline"
+
+git config --global --unset alias.s
+
+git config --global --unset user.name
+
+.gitignore
+-------------
+file-name
+file-name
+
+:wq!
+
+
+
+amend
+--------
+git commit --amend -m "label"
+
+TAG
+------
+git tag
+git tag tag-name
+git show tag-name
+or git log
+git tag -d tag-name
+
+git tag tag-name cid
+
+git push origin tag-name
+git push origin --tags
+
+git push origin -d tag-name
+
+
+-----------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
