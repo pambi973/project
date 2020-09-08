@@ -1,0 +1,42 @@
+what is maven
+
+maven is build automation tool
+
+java .....ant maven gradle
+
+.net ....nant msbuild
+angularjs...angularcli
+c.......rmake cmake
+
+build management tool
+the process of converting sc to artifacts is called build management.
+
+process of compiling and assembling a software system
+
+process of scripting
+
+process of source code to object code is called compilation
+
+Bild tool goals:
+accelerate build process with good quality of the product
+compiling sc to object code
+package binaries converted as war/jar
+runnig automated tests....unit test for binaries
+automated deployment into production
+creating documentation for future use
+
+advantages     
+to avoid redunant tasksmto build code repetatively when developer do changes in a file
+quick way of compile and assembling through scripting
+improve the quality of product
+maintain history of builds to invistgate for future
+
+
+maven
+build tool for java
+documentation tool
+dependency management tool
+not a build tool project management tool
+invoked based on pom(project object model)
+
+difference between maven and ant 

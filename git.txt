@@ -1,0 +1,66 @@
+github 
+bitbucket 
+remote repos are two types
+cloud model
+git hub
+bit bucket
+beanstalk
+gitcracken
+
+server
+
+gitlab 
+bit bucket
+
+
+svn hubtool
+hub to client tool
+
+client tools
+
+svn tortoise
+gitbash
+git extensions gui 
+
+git is hub to hub model
+
+Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later. For the examples in this book, you will use software source code as the files being version controlled, though in reality you can do this with nearly any type of file on a computer.
+
+Devops engineer responsibilities-
+
+creating repos
+user perms
+merge conflicts
+rebase revert merging
+new dev training
+versioning
+svn git migrtion
+branching
+
+
+identity configurations are two types
+global
+local
+
+what is repository 
+repo is nothing but when developer wants to store his code
+bare and non bare repositories
+bare is remote
+non bare .git local repo
+
+what are difference between cvcs and dvcs
+
+
+
+clone first time to machine
+pull update
+push changes to push
+pull fetch+merge
+fetch is data will come to .git repo
+
+
+git log 
+is to tracking and viewing history
+
+git tag
+is identify particular point
