@@ -40,7 +40,7 @@ branching
 
 identity configurations are two types
 global
-local
+local.
 
 what is repository 
 repo is nothing but when developer wants to store his code
@@ -64,3 +64,14 @@ is to tracking and viewing history
 
 git tag
 is identify particular point
+------------------------
+types of file creating commands
+touch
+cat
+vi
+touch is for creating files
+cat filename will show content of the file
+cat>filename will create file add data
+cntrl+d to save data
+cat>>filename
+to add data the existing file
