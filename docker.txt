@@ -1,0 +1,6 @@
+what is docker
+docker is containrization tool 
+
+containers are isolated workspaces,
+
+docker is opensource- solomon hykes

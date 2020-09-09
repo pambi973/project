@@ -1,0 +1,71 @@
+AWS
+creating ec2 (instance)servers
+EC2 infrastructure as aservice
+EKS
+Elastic container service (DOCKER)
+Elastic beanstalk (platform as a service)
+
+AMI amazon machine image:
+
+types of AMI
+1 Quick start -amazon
+2 My AMIS- my backup
+3 AWS market place- third party
+4 community AMIS -amazon
+
+Instance type
+
+majarly we will go with general purpose family
+
+at a time we can launch 5 instance
+
+by default we will launch on demand server we will launch
+we will not launch spot instance.
+
+storage types need to search
+
+snapchat is nothig but taking backup for c or d drives
+
+security
+ source 
+myip
+anywhere
+custom
+
+some imp ports for devops engineer
+linux ssh 22
+rdp windows 3389
+tomcat 8080
+jenkins 8080
+jboss 8080
+
+with out pem key we cant log in to first time for aws server
+
+
+after that we disable pem key and adding password
+
+
+
+instance life cycle
+
+                      pending
+
+               stopped------stopping-------running-----------rebooting
+
+
+
+
+
+
+private
+192.168.
+10.
+172.16.31
+remaining are pubilc ip
+
+server launching time private ip will create first
+
+must learn system performance commands
+
+
+mstsc command to open remote desktop for windows files.
